@@ -1,62 +1,72 @@
-@import url('"https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 * {
-margin: 0;
- padding: 0;
- box-sizing: border-box;
- font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
-main{
+
+main {
     padding: 30px;
     user-select: none;
 }
-header , span {
+
+header > span {
     font-size: 0.85rem;
     font-weight: 700;
     color: #6b778c;
-    letter-spacing:0.02rem;
+    letter-spacing: 0.02rem;
 }
-header, h1{
+
+header > h1 {
     color: #182b4d;
-    font-size:2rem;
+    font-size: 2rem;
     font-weight: 600;
     margin-top: 5px;
 }
-.columns{
+
+.columns {
     display: flex;
     gap: 15px;
     margin-top: 50px;
 }
-.column{
+
+.column {
     width: 100%;
     background-color: #f4f5f7;
     height: 100dvh;
     border-radius: 8px;
 }
-.column__title{
+
+.column__title {
     color: #4d5c76;
     font-size: 0.9rem;
     font-weight: 700;
     margin: 20px;
 }
-.column__cards{
+
+.column__cards {
     padding: 4px;
     height: 100%;
     border-radius: 5px;
 }
-.card{
+
+.card {
     width: 100%;
     min-height: 70px;
-    background-color:white ;
+    background-color: #fff;
     border-radius: 5px;
     border: 1px solid #dfe1e6;
     box-shadow: 0 2px 2px #dfe1e6;
     padding: 12px 14px;
     font-size: 0.9rem;
     font-weight: 500;
-    color:#4d5c76;
+    color: #4d5c76;
+    margin-bottom: 5px;
 }
-.column--highlight{
-    background:#deebff;
+
+.column--highlight {
+    background-color: #deebff;
     border: 2px solid #2482ff;
 }
